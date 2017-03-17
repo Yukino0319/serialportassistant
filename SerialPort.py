@@ -1,5 +1,4 @@
-#encoding=utf-8  
-__author__ = 'freedom'  
+#encoding=utf-8   
   
 from Tkinter import *  
 from serial import *  
