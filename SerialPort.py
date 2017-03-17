@@ -85,13 +85,13 @@ class GUI(Frame):
         print n
         #output = self.ser.read(n)  
         #print output
-        #while 1:
-        #    n = self.ser.inWaiting()
+        while 1:
+            n = self.ser.inWaiting()
         #    #print n
-        #    output = self.ser.read(n)
+            output = self.ser.read(n)
         #    output = 'abc'
         #    #self.show.delete(0.0,END)  
-        #    self.show.insert(END,output)  
+            self.show.insert(END,output)  
     def open(self):  
         #串口初始化配置  
         self.ser = Serial(  
