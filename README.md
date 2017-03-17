@@ -1,2 +1,5 @@
-# serialportassistant
-一个简单的串口助手工具
+# serialportassistant<br />
+一个简单的串口助手工具<br />
+这个工具将常用的串口参数固定下来，可以修改<br />
+针对RS232使用<br />
+最初是为了完成微机原理课程设计而做<br />
